@@ -1,0 +1,31 @@
+.tel
+{
+    order:3;
+}
+
+.adresse
+{
+    order:1
+}
+.ville
+{
+    order:2
+}
+
+.mail
+{
+    order: 4;
+}
+@media screen and (min-width:1417px ) {
+ 
+    .tel
+{
+    order:2;
+}
+
+.ville
+{
+    order:3
+}
+}
+
