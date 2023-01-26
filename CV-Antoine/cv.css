@@ -1,0 +1,65 @@
+body
+{
+    /* background: linear-gradient(to right , rgb(255, 255, 255) 50%, rgb(247, 197, 90) 50%); */
+    margin: 2em 14em 14em 14em; ;
+    min-width: 280px;
+}
+/*teste du github*/
+h1, h2 
+{
+    text-decoration: underline; 
+}
+.experience p   
+{
+    padding-top: 22px;
+    padding-right: 1px;
+
+}
+h1 ,footer h2,h3
+{
+    text-align: center;
+    min-width: 280px;
+}
+
+.flex
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-width: 117px;
+    max-width: 360px;
+}
+
+p ,a
+{
+    margin: 0 2%;
+}
+
+h3
+{
+    border:1px solid;
+    width:25%;
+    margin: auto;   
+    min-width: 108px;
+}
+
+main
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.col
+{
+    width: 50%;
+    min-width: 135px;
+}
+
+.col-g{
+background-color: beige;
+}
+
+.col-g{
+  background-color: antiquewhite;
+    }
