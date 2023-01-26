@@ -1,0 +1,159 @@
+header{
+    height: 5px;
+    background-attachment: fixed;
+    background-color: rgba(137, 43, 226, 0.322);
+}
+
+body{
+
+    background-color: rgb(252, 213, 213);
+}
+h1{
+
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding: 2%;
+        text-align: center;
+        
+        
+        color:rgb(255, 24, 24);
+        background: linear-gradient(90deg, #fa03b0, rgb(255, 255, 255), rgb(12, 8, 253));
+          
+}
+
+#about{
+    display: grid;
+    border-color: rgb(233, 93, 29);
+    grid-template-columns: repeats(3, 1fr);
+    grid-gap: 10px;
+    grid grid-auto-rows: minmax(100px, auto);
+    
+
+}
+
+#WORK{
+    display: grid;
+    border-color: rgb(233, 93, 29);
+    grid-template-columns: repeats(3, 1fr);
+    grid-gap: 10px;
+    grid grid-auto-rows: minmax(100px, auto);
+    
+
+}
+p{
+    color: rgb(248, 6, 6);
+    font-size: medium;
+
+
+}
+.un{
+    
+    text-decoration: overline;
+    background-color: rgba(255, 172, 172, 0.678);
+    grid-column: 1 ;
+    grid-row: 1;
+}
+
+.deux {
+    text-decoration:darksalmon;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.trois {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(245, 4, 4);
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+ 
+  li a:hover {
+    background-color: rgba(248, 50, 215, 0.342);
+    color: white;
+  }
+
+  
+  .unn{
+    
+    grid-column: 1 ;
+    grid-row: 1;
+}
+
+.deuxx {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.troiss {
+    text-decoration: overline;
+    background-color: #fa03b069;
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.quatree{
+    grid-column: 2;
+    grid-row: 2/2;
+     }
+
+
+     #Contact{
+        display: grid;
+        
+        grid-template-columns: repeats(3, 1fr);
+        grid-gap: 10px;
+        grid grid-auto-rows: minmax(100px, auto);
+          }
+
+
+          .unnn{
+            text-decoration: overline;
+            background-color: #f7176167;
+            grid-column: 1 ;
+            grid-row: 1;
+        }
+        
+        .deuxxx {
+            text-decoration: underline;
+            font-family: 'Times New Roman', Times, serif;
+            grid-column: 2;
+            grid-row: 2/1;
+            text-decoration-color:red;
+        }
+        
+        .troisss {
+            
+            grid-column: 3;
+            grid-row: 1;
+        }
+        
+        .quatreee{
+            
+            grid-column: 2;
+            grid-row: 2/2;
+             }
+
+
+             
+
+p{
+
+    font-size: larger;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}             

@@ -1,0 +1,80 @@
+body{
+    background-color: black;
+
+}
+
+*{
+    margin: 0;
+}
+
+.bloc{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.bloc video{
+    min-height: 100%;
+    min-width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: -100;
+    transform: translate(-50%, -50%);
+
+}
+
+h1{
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 20%;
+    text-align: center;
+    font-size: 60px;
+    position: relative;
+    color:blanchedalmond;
+    background: linear-gradient(90deg, #c903fa, rgb(255, 255, 255), rgb(12, 8, 253));
+        background-repeat: no-repeat;
+        background-size: 80%;
+    animation: animate 10s infinite;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: rgba(255, 255, 255, 0);
+
+}
+
+.btn {
+    background-color: rgba(116, 101, 255, 0.5);
+    border: none;
+    width: -webkit-fill-available; 
+    
+    color: rgb(253, 252, 252);
+    
+    position:absolute;
+    font-size: 100px;
+    padding-left: 20px;
+    transition: 0.3s;
+    
+  }
+  
+  .btn:hover {
+    background-color: #f85757;
+    color: white;
+  }
+
+  
+
+@keyframes animate {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
+    }
+}
+
+
+
+
+
+  
