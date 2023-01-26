@@ -1,0 +1,184 @@
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 400;
+    src: url('/font/Roboto-Regular.woff2')format('woff2');
+    src: url('/font/Roboto-Regular.ttf')format('truetype');
+}
+
+* {
+    font-family: 'Roboto';
+    color: #664C46;
+}
+
+h1 {
+    font-size: 4.0vw;
+}
+
+h2 {
+    font-size: 2.60vh;
+}
+
+p {
+    font-size: 2vmin;
+}
+
+li {
+    font-size: 2vmin;
+}
+
+.triangle1 {
+    display: inline-block;
+    height: 0;
+    width: 0;
+    border-top: 10vw solid #664c46;
+    border-right: 60vw solid transparent;
+    margin-bottom: 0;
+}
+
+/* .triangle2{
+    display : inline-block;
+    height : 0;
+    width : 0;
+    border-top : 150px solid red;
+    border-left : 150px solid transparent;
+} */
+
+
+.header {
+    height: 280px;
+}
+
+.titrebeige {
+    background-color: #E0CDBE;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.gras, .grass {
+    font-weight: bold;
+}
+
+.col-g {
+    width: 50%;
+    background-color: #E0CDBE;
+}
+
+.col-d {
+    width: 50%;
+    background-color: #F6F5F0;
+}
+
+
+.col-g>h2 {
+    margin-top: 47px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1,
+h2:not(.gauche) {
+    text-align: center;
+}
+
+.gauche {
+    margin-left: 50px;
+}
+
+.relou {
+    padding-top: 10vw;
+}
+
+.gras {
+    display: list-item;
+    list-style: disc inside;
+}
+
+.pasgras {
+    display: list-item;
+    list-style: disc inside;
+    ;
+}
+
+p:not(.gras) {
+    margin-left: 50px;
+}
+
+/* .flexbox{
+    margin-left: 50%;
+} */
+/* .flexbox{
+    display:inline-block;
+    width: 49%;
+} */
+.container {
+
+    display: flex;
+
+}
+
+.portrait {
+    display: block;
+    width: 50%;
+    padding-top: 0px;
+    border-radius: 100%;
+    margin: auto;
+}
+
+.header,
+.exppro,
+.formations {
+    background-color: #F6F5F0;
+}
+
+p {
+    margin-left: 30px;
+}
+
+@media (max-width:1168px) {
+    p{
+        font-size: 1.5vw;
+    }
+
+}
+
+@media (max-width:800px) {
+
+    h1 {
+        font-size: 2.9vw;
+    }
+
+    h2 {
+        font-size: 1.9vw;
+    }
+
+    p {
+        font-size: 1.5vw;
+    }
+    li{
+        font-size: 1.5vw;
+    }
+    .col-g,
+    .col-d {
+        width: 100%;
+    }
+
+    .portrait {
+        width: 100%;
+        padding-top: 0;
+    }
+
+    .relou {
+        padding-top: 0;
+    }
+
+    .header{
+        height: 150px;
+    }
+    
+    .container{
+        display: flex;
+        flex-direction: column-reverse;
+}
+}
